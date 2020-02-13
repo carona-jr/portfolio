@@ -22,6 +22,7 @@ a {
 #welcome-section {
 	margin-top: 90px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
@@ -32,8 +33,17 @@ a {
 	font-size: 1.2em;
 }
 
-#welcome-section span {
+#nome {
 	color: #E0E0E0;
+}
+
+#welcome-section p {
+	color: rgb(240, 240, 240);
+	font-size: 1.5rem;
+}
+
+#tech {
+	color: rgb(248, 0, 0);
 }
 
 #navbar, footer {
