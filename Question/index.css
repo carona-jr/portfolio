@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+body {
+    background-color: #E8AE31;
+}
+
+#header {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+
+h1, #btn, h2, label, p {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4em;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p, label {
+    font-size: 1.5em;
+}
+
+button {
+    padding: 20px 30px;
+    font-size: 1.3em;
+    background-color: #FF4531;
+    color: #fff;
+    margin-top: 50px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #EDD6CD;
+    color: black;
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+}
+
+#area-quiz {
+    background-color: #FFE590;
+    width: 80%;
+    margin: 15px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#btn-prox, #btn-ver {
+    display: inline-block;
+}
+
+#div-date {
+    text-align: center;
+    margin-top: 25px; 
+}
+
+#date {
+    font-size: 1.1em;
+    padding: 15px;
+}
+
+.btnVolta {
+	font-family: 'PT Mono', monospace;
+	font-size: 1.5rem;
+	position: fixed;
+	top: 0;
+	margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+	background-color: #006385;
+	border: 1.5px solid #006385;
+	color: #E0E0E0;
+	border-radius: 5%;
+	padding: 10px;
+}
+
+.btnVolta:hover, .btnVolta:focus {
+	background-color: #E0E0E0;
+	color:#006385;
+}

@@ -1,0 +1,173 @@
+		/* Configuração padrão da página
+		-------------------------------*/
+		body,
+		html {
+			margin: 0;
+			font: 16px "Lato", sans-serif;
+			color: #777;
+			height: 100%;
+		}
+
+		.conteudo {
+			color: #777;
+			background-color: #67337A;
+			text-align: justify;
+			padding: 50px 80px;
+			box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+		}
+
+		.primeiro p {
+			width: 50%;
+			text-align: justify;
+			margin-left: 25%;
+		}
+
+		h3,
+		h4 {
+			text-transform: uppercase;
+			text-align: center;
+			text-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+			font-size: 2em;
+		}
+
+		p,
+		ul,
+		h3,
+		h4 {
+			color: #fff;
+			;
+		}
+
+		p {
+			margin-bottom: 20px;
+		}
+
+		.sem-texto {
+			opacity: 0;
+		}
+
+		.flex {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.conteudo-quem-somos {
+			border: 1px solid #fff;
+			box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.2);
+			width: 30%;
+			height: 50%;
+			margin-left: 1.5em;
+			padding: 1em;
+		}
+
+		form {
+			display: flex;
+			justify-content: center;
+			align-items: center; 
+			flex-direction: column;
+			position: relative;
+			color: #fff;
+		}
+
+		label {
+			margin: 20px 0;
+		}
+
+		input {
+			padding: 10px;
+			width: 450px;
+		}
+
+		.assunto {
+			width: 440px;
+		}
+
+		.btn {
+			margin-top: 40px;
+			padding: 25px;
+			text-transform: uppercase;
+			background-color: #fff;
+			border-radius: 10px 10px;
+			box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.2);
+			text-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.2);
+			font-weight: bold;
+			border: none;
+		}
+
+		.btn:hover{
+			background-color: darkmagenta;
+			color: #fff;
+			cursor: pointer;
+		}
+
+		/* Efeito Parallax
+		-------------------------------*/
+		.caixa1,
+		.caixa2,
+		.caixa3,
+		.caixa4 {
+			position: relative;
+			height: 100%;
+			opacity: 0.8;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+		}
+
+		.caixa1 {
+			background-image: url(imagens/jr.com.png);
+			opacity: 1;
+		}
+
+		.caixa2 {
+			background-image: url(imagens/language.jpg);
+		}
+
+		.caixa3 {
+			background-image: url(imagens/code-lines.jpg);
+		}
+
+		.caixa4 {
+			background-image: url(imagens/eye.jpg);
+		}
+
+		.conteudo-titulo {
+			position: absolute;
+			left: 0;
+			top: 45%;
+			width: 100%;
+			text-align: center;
+		}
+
+		.conteudo-titulo span.titulo {
+			color: #fff;
+			background-color: #42214F;
+			padding: 18px;
+			font-size: 25px;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+			box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+			text-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.2);
+		}
+
+		.btnVolta {
+			font-family: 'PT Mono', monospace;
+			font-size: 1.5rem;
+			position: fixed;
+			top: 0;
+			text-decoration: none;
+			margin-top: 10px;
+			margin-left: 10px;
+			background-color: #006385;
+			border: 1.5px solid #006385;
+			color: #E0E0E0;
+			border-radius: 5%;
+			padding: 10px;
+		}
+		
+		.btnVolta:hover, .btnVolta:focus {
+			background-color: #E0E0E0;
+			color:#006385;
+		}

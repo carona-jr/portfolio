@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Jogo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah|Indie+Flower|PT+Mono&display=swap"
+		rel="stylesheet">
+	<style type="text/css">
+		body {
+			font-family: 'PT Mono', monospace;
+			overflow-x: hidden;
+			background-color: #E0E0E0;
+		}
+
+		#main {
+			margin-top: 50px;
+			width: 100%;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.mg {
+			margin: 40px 0;
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 2rem;
+			text-transform: uppercase;
+			color: #006385;
+		}
+
+		.btn {
+			text-align: center;
+			font-size: 1.5rem;
+			text-decoration: none;
+			background-color: #006385;
+			border: 1.5px solid #006385;
+			color: #E0E0E0;
+			border-radius: 5%;
+			padding: 10px;
+		}
+
+		.btn:hover,
+		.btn:focus {
+			background-color: #E0E0E0;
+			color: #006385;
+		}
+
+		.btnVolta {
+			position: fixed;
+			top: 0;
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+
+		video {
+			width: 300px;
+			height: 180px;
+		}
+
+		/* Small devices (landscape phones, 576px and up) */
+		@media (min-width: 576px) {
+			#main {
+				margin-top: 100px;
+			}
+
+			video {
+			width: 480px;
+			height: 280px;
+			}
+		}
+
+		/* Medium devices (tablets, 768px and up) */
+		@media (min-width: 768px) {
+			#main {
+				margin-top: 100px;
+			}
+
+			video {
+			width: 720px;
+			height: 480px;
+			}
+		}
+
+		/* Large devices (desktops, 992px and up) */
+		@media (min-width: 992px) {
+			#main {
+				margin-top: 150px;
+			}
+		}
+
+		@media (min-width: 1200px) {
+			body {
+				overflow-y: hidden;
+			}
+
+			#main {
+				margin-top: 0;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div id="main">
+		<h1 class="mg">
+			Platform Shooter em Java
+		</h1>
+		<video width="720" height="480" controls class="mg">
+			<source src="gameVideo.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<a href="https://github.com/carona-jr/shooter-game" class="btn mg">
+			Veja o código no GitHub
+		</a>
+	</div>
+	<a href="../index.html" class="btn btnVolta">VOLTAR</a>
+</body>
+
+</html>
