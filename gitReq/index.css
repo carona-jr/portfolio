@@ -1,0 +1,140 @@
+/*
+    font-family: 'Fira Code', monospace;
+*/
+
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: rgb(231, 231, 231);
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.margin {
+    margin: 2.5vh 0;
+}
+
+#title {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 5vh;
+    width: 100%;
+    height: 16vh;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-text {
+    width: 70%;
+    padding: 15px;
+}
+
+#btn-search {
+    border: none;
+    border-radius: 15px;
+    background-color: orange;
+    color: rgb(61, 61, 61);
+    padding: 15px;
+}
+
+#btn-search:hover, #btn-search:focus {
+    background: #fff;
+    color: black;
+    transition: background 0.3s;
+    transition: color 0.3s;
+}
+
+#users {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+#users div {
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(105, 105, 105, 0.1);
+    margin: 10px 0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#users div h2 {
+    text-transform: uppercase;
+}
+
+#users div img {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    #users div {
+        padding: 40px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    #title {
+        font-size: 3rem;
+    }
+
+    #users div {
+        padding: 50px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #users {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #users div {
+        margin: 40px 40px;
+    }
+}
+
+.btnVolta {
+    font-family: 'PT Mono', monospace;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 0;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #006385;
+    border: 1.5px solid #006385;
+    color: #E0E0E0;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.btnVolta:hover, .btnVolta:focus {
+    background-color: #E0E0E0;
+    color:#006385;
+}
