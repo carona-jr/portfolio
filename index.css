@@ -72,7 +72,6 @@ a {
 	background-color: #E0E0E0;
 	border: 1.5px solid #E0E0E0;
 	color: #006385;
-	border-radius: 5%;
 	padding: 10px;
 }
 
@@ -255,3 +254,39 @@ footer {
 		height: 240px;
 	}
 }
+
+.animated-border-button {
+	background-color: #ffffff;
+	border: none;
+	color: #ffffff;
+	outline: none;
+	padding: 12px 40px 10px;
+	position: relative;
+  }
+  
+  .animated-border-button:before,
+  .animated-border-button:after {
+	border: 0 solid transparent;
+	transition: all 0.3s;
+	content: '';
+	height: 0;
+	position: absolute;
+	width: 24px;
+  }
+  
+  .animated-border-button:before {
+	border-top: 2px solid #ffffff;
+	right: 0;
+	top: -4px;
+  }
+  
+  .animated-border-button:after {
+	border-bottom: 2px solid #ffffff;
+	bottom: -4px;
+	left: 0;
+  }
+  
+  .animated-border-button:hover:before,
+  .animated-border-button:hover:after {
+	width: 100%;
+  }
