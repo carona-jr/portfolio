@@ -106,7 +106,7 @@ h2 {
 	height: 200px;
 }
 
-.btnProject{
+.btnProject {
 	background-color: #006385;
 	border: 1.5px solid #006385;
 	color: #E0E0E0;
@@ -116,7 +116,7 @@ h2 {
 
 .btnProject:hover, .btnProject:focus {
 	background-color: #E0E0E0;
-	color:#006385;
+	color: #006385;
 }
 
 footer {
@@ -134,7 +134,7 @@ footer {
 
 #profile-link div {
 	text-align: center;
-	margin: 25px 0;
+	margin: 25px 10px;
 	border-radius: 5%;
 }
 
@@ -143,12 +143,12 @@ footer {
 	padding: 10px;
 	padding-left: 50px;
 	color: #E0E0E0;
-	border-radius: 10%;
+	border-radius: 5%;
 }
 
 #profile-link input {
 	border: none;
-	border-radius: 10%;
+	border-radius: 5%;
 	padding: 10px;
 	padding-left: 50px;
 	background-color: #006385;
@@ -198,6 +198,7 @@ footer {
 }
 
 /* Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
 	#projects {
 		display: flex;
@@ -206,18 +207,15 @@ footer {
 		align-items: center;
 		justify-content: center;
 	}
-
 	.project-tile {
 		margin: 50px 0;
 		width: 360px;
 		height: 280px;
 	}
-
 	.project-tile img {
 		width: 320px;
 		height: 240px;
 	}
-
 	#profile-link {
 		display: flex;
 		flex-direction: row;
@@ -228,13 +226,13 @@ footer {
 }
 
 /* Large devices (desktops, 992px and up) */
+
 @media (min-width: 992px) {
 	.project-tile {
 		margin: 60px 0;
 		width: 420px;
 		height: 340px;
 	}
-
 	.project-tile img {
 		width: 320px;
 		height: 240px;
@@ -242,13 +240,13 @@ footer {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
+
 @media (min-width: 1200px) {
 	.project-tile {
 		margin: 70px 0;
 		width: 420px;
 		height: 340px;
 	}
-
 	.project-tile img {
 		width: 320px;
 		height: 240px;
@@ -262,31 +260,29 @@ footer {
 	outline: none;
 	padding: 12px 40px 10px;
 	position: relative;
-  }
-  
-  .animated-border-button:before,
-  .animated-border-button:after {
+}
+
+.animated-border-button:before, .animated-border-button:after {
 	border: 0 solid transparent;
 	transition: all 0.3s;
 	content: '';
 	height: 0;
 	position: absolute;
 	width: 24px;
-  }
-  
-  .animated-border-button:before {
+}
+
+.animated-border-button:before {
 	border-top: 2px solid #ffffff;
 	right: 0;
 	top: -4px;
-  }
-  
-  .animated-border-button:after {
+}
+
+.animated-border-button:after {
 	border-bottom: 2px solid #ffffff;
 	bottom: -4px;
 	left: 0;
-  }
-  
-  .animated-border-button:hover:before,
-  .animated-border-button:hover:after {
+}
+
+.animated-border-button:hover:before, .animated-border-button:hover:after {
 	width: 100%;
-  }
+}
