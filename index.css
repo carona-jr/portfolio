@@ -233,9 +233,9 @@ footer {
 		width: 420px;
 		height: 340px;
 	}
-	.project-tile img {
-		width: 320px;
-		height: 240px;
+
+	.project-tile p {
+		width: 300px;
 	}
 }
 
@@ -244,12 +244,6 @@ footer {
 @media (min-width: 1200px) {
 	.project-tile {
 		margin: 70px 0;
-		width: 420px;
-		height: 340px;
-	}
-	.project-tile img {
-		width: 320px;
-		height: 240px;
 	}
 }
 
@@ -285,4 +279,8 @@ footer {
 
 .animated-border-button:hover:before, .animated-border-button:hover:after {
 	width: 100%;
+}
+
+.project-tile {
+	text-align: center;
 }
