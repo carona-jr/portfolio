@@ -1,0 +1,33 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove {
+    cursor: pointer;
+}
+
+.buttonOrder {
+    width: 25vw;
+}
+
+.cancel {
+    background-color: rgb(185, 0, 0);
+    border: 1px solid rgb(185, 0, 0);
+}
+
+.cancel:hover, .cancel:focus {
+    color: rgb(252, 252, 252);
+    background-color: #353535;
+}
+
+.search {
+    background-color: rgb(1, 151, 21);
+    border: 1px solid rgb(1, 151, 21);
+}
+
+.search:hover, .search:focus {
+    color: rgb(252, 252, 252);
+    background-color: #353535;
+}

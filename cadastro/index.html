@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./img/person.svg" type="image/x-icon">
+
+    <title>Cliente</title>
+</head>
+
+<body>
+    <div id="content" class="center direction">
+        <div class="center">
+            <div>
+                <a href="./index.html">
+                    <h1 id="title" class="robot-font">Cadastro de cliente</h1>
+                </a>
+            </div>
+        </div>
+        <div class="input-content center direction">
+            <form class="center direction">
+                <div class="center direction">
+                    <input type="text" id="name" class="robot-font input-text mb" name="name" placeholder="seu nome"
+                        required>
+                    <div class="center">
+                        <input type="number" id="doc" class="robot-font input-double mb" name="doc"
+                            placeholder="nº documento">
+                        <input type="number" id="fat" class="robot-font input-double mb" name="fat"
+                            placeholder="faturamento">
+                    </div>
+                    <div class="center">
+                        <div>
+                            <p class="p-text p-margin  robot-font">data de fundação</p>
+                            <input type="date" id="date-fun" class="robot-font input-double mb" name="date-fun"
+                                placeholder="data de fundação">
+                        </div>
+                        <div>
+                            <p class="p-text p-margin  robot-font">data de alteração</p>
+                            <input type="date" id="date-alt" class="robot-font input-double mb" name="date-alt"
+                                placeholder="data de alteração">
+                        </div>
+                    </div>
+                    <div>
+                        <p class="p-text robot-font text-center">Estado do cliente</p>
+                        <label class="robot-font label">
+                            <input type="radio" id="active" class="robot-font mb" name="status" value="ativo"
+                                placeholder="estado do cliente" checked>
+                            Ativo
+                        </label>
+                        <label class="robot-font label">
+                            <input type="radio" id="inactive" class="robot-font mb" name="status" value="inativo"
+                                placeholder="estado do cliente">
+                            Inativo
+                        </label>
+                    </div>
+
+                </div>
+                <button type="submit" value="submit" class="button robot-font submit">Cadastrar</button>
+            </form>
+            <a href="./info.html">
+                <button class="button robot-font submit">
+                    Visualizar dados
+                </button>
+            </a>
+        </div>
+        <a href="../index.html" class="btnVolta">VOLTAR</a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

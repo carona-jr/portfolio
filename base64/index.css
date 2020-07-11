@@ -1,0 +1,107 @@
+body {
+    background-color: #353535;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#content {
+    width: 100vw;
+    height: 95vh;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direction {
+    display: flex;
+    flex-direction: column;
+}
+
+.robot-font {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(252, 252, 252);
+}
+
+.input-text {
+    padding: 15px;
+    width: 50vw;
+    height: 100px;
+    font-size: 24px;
+}
+
+.input-text:focus {
+    outline: none;
+}
+
+.button {
+    width: 25vw;
+    margin-top: 2vh;
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: #353535;
+    border: 1px solid rgb(252, 252, 252);
+}
+
+.button:hover, .button:focus {
+    outline: none;
+    cursor: pointer;
+    color: #353535;
+    background-color: rgb(252, 252, 252);
+}
+
+.decode {
+    background-color: rgb(185, 0, 0);
+    border: 1px solid rgb(185, 0, 0);
+}
+
+.decode:hover, .decode:focus {
+    color: rgb(252, 252, 252);
+    background-color: #353535;
+}
+
+.code {
+    background-color: rgb(1, 151, 21);
+    border: 1px solid rgb(1, 151, 21);
+}
+
+.code:hover, .code:focus {
+    color: rgb(252, 252, 252);
+    background-color: #353535;
+}
+
+
+#title {
+    font-size: 3rem;
+    line-height: 48px;
+    background-image: url('./img/cryptography.svg');
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    padding-left: 55px;
+}
+
+.btnVolta {
+	font-family: 'PT Mono', monospace;
+	font-size: 1.5rem;
+	position: fixed;
+	top: 0;
+	margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+	background-color: #006385;
+	border: 1.5px solid #006385;
+	color: #E0E0E0;
+	border-radius: 5%;
+	padding: 10px;
+}
+
+.btnVolta:hover, .btnVolta:focus {
+	background-color: #E0E0E0;
+	color:#006385;
+}

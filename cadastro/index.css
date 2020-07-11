@@ -1,0 +1,137 @@
+body {
+    background-color: #353535;
+    margin: 0;
+    padding: 0;
+}
+
+input:-webkit-autofill::first-line {
+    font-size: 24px
+}
+
+a {
+    text-decoration: none;
+}
+
+#title {
+    font-size: 3rem;
+    line-height: 48px;
+    background-image: url('./img/person.svg');
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    padding-left: 48px;
+    text-transform: uppercase;
+}
+
+#content {
+    width: 100vw;
+    height: 95vh;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direction {
+    display: flex;
+    flex-direction: column;
+}
+
+.robot-font {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(252, 252, 252);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt {
+    margin-top: 25px;
+}
+
+.mb {
+    margin-bottom: 25px;
+}
+
+.mr {
+    margin-right: 10px;
+}
+
+.row {
+    display: flex;
+    direction: row;
+}
+
+.input-text {
+    padding: 15px;
+    width: 50vw;
+    height: 24px;
+    font-size: 24px;
+    color: #353535;
+}
+
+.input-double {
+    margin: 0 3vw;
+    padding: 15px;
+    width: 20vw;
+    height: 24px;
+    font-size: 24px;
+    color: #353535;
+}
+
+.p-margin {
+    margin: 5px 3vw;
+}
+
+.p-text {
+    color: rgb(252, 252, 252);
+    text-transform: uppercase;
+}
+
+.label {
+    font-size: 1.5rem;
+    padding: 0 15px;
+}
+
+.input-text:focus {
+    outline: none;
+}
+
+.button {
+    width: 50vw;
+    margin-top: 2vh;
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: #353535;
+    border: 1px solid rgb(252, 252, 252);
+    text-transform: uppercase;
+}
+
+.button:hover, .button:focus {
+    outline: none;
+    cursor: pointer;
+    color: #353535;
+    background-color: rgb(252, 252, 252);
+}
+
+.btnVolta {
+	font-family: 'PT Mono', monospace;
+	font-size: 1.5rem;
+	position: fixed;
+	top: 0;
+	margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+	background-color: #006385;
+	border: 1.5px solid #006385;
+	color: #E0E0E0;
+	border-radius: 5%;
+	padding: 10px;
+}
+
+.btnVolta:hover, .btnVolta:focus {
+	background-color: #E0E0E0;
+	color:#006385;
+}
